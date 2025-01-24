@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <title>MST</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <h1 class="logo">MST</h1>
+                <nav>
+                    <ul class="navigation">
+                        <li class="nav-item"><a href="#main">Home</a></li>
+                        <li class="nav-item"><a href="#aboutUs">About Us</a></li>
+                        <li class="nav-item"><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="container">
+            <div class="main-left">
+                <h1 class="main-title">Discover Luxury Living in the Heart of the City</h1>
+                <p class="main-description">Modern apartments designed for comfort and style.</p>
+                <div class="main-options">
+                    <div class="options-item">
+                        <img class="item-img" src="./images/tick.png" alt="tick">
+                        <p class="item-description">Spacious 2-bedroom apartments — from $500,000</p>
+                    </div>
+                    <div class="options-item">
+                        <img class="item-img" src="./images/tick.png" alt="tick">
+                        <p class="item-description">Luxury 3-bedroom apartments — from $750,000</p>
+                    </div>
+                    <div class="options-item">
+                        <img class="item-img" src="./images/tick.png" alt="tick">
+                        <p class="item-description">Penthouse suites with panoramic views — from $1,200,000</p>
+                    </div>
+                    <button class="order-button">Schedule a Visit</button>
+                </div>
+            </div>
+            <div class="main-right">
+                <img src="./images/main-building.png" alt="main-building">
+            </div>
+        </div>
+    </section>
+    <section class="aboutUs" id="aboutUs">
+        <div class="aboutUs-left">
+            <img src="./images/about-section-left-img.png" alt="leftImg">
+        </div>
+        <div class="aboutUs-center">
+            <div class="about-description-item">
+                <img class="about-description-img" src="./images/about-logo.png" alt="aboutLogo">
+                <p class="about-description">We are committed to providing exceptional living spaces that blend modern
+                    design with comfort, ensuring each of our residents enjoys a luxurious lifestyle.</p>
+            </div>
+            <div class="about-description-item">
+                <img class="about-description-img" src="./images/about-logo.png" alt="aboutLogo">
+                <p class="about-description">Our apartments feature cutting-edge architecture and premium materials,
+                    crafted to deliver both elegance and functionality in every corner.</p>
+            </div>
+            <div class="about-description-item">
+                <img class="about-description-img" src="./images/about-logo.png" alt="aboutLogo">
+                <p class="about-description">Located in the heart of the city, our properties offer unparalleled access
+                    to urban conveniences while maintaining a peaceful, exclusive atmosphere.</p>
+            </div>
+            <div class="about-description-item">
+                <img class="about-description-img" src="./images/about-logo.png" alt="aboutLogo">
+                <p class="about-description">We prioritize our residents' needs with personalized services, ensuring
+                    that every experience in our community feels special and seamless.</p>
+            </div>
+            <button class="order-button">Schedule a Visit</button>
+        </div>
+        <div class="aboutUs-right">
+            <img src="./images/about-section-right-img.png" alt="rightImg">
+        </div>
+    </section>
+    <section class="conactUs" id="contactUs">
+        <div class="container">
+            <div class="contactUs-form">
+                <h2 class="form-title">Contact Us</h2>
+                <form>
+                    <input type="text" class="input" name="Name" placeholder="Name">
+                    <input type="email" class="input" name="Email" placeholder="E-mail">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="privacyPolicy" required>
+                        <label class="form-check-label" for="privacyPolicy">I accept Privacy Policy</label>
+                    </div>
+                    <button class="contact-btn" type="submit">Contact Us</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="footer-navigation">
+            <ul class="navigation">
+                <li class="nav-item"><a href="#main">Home</a></li>
+                <li class="nav-item"><a href="#aboutUs">About Us</a></li>
+                <li class="nav-item"><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-top">
+                    <h1 class="logo">MST</h1>
+                    <div class="social">
+                        <a href="#">
+                            <img src="./images/instagram.png" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./images/tiktok.png" alt="tiktok">
+                        </a>
+                        <a href="#">
+                            <img src="./images/linkedin.png" alt="linkedin">
+                        </a>
+                        <a href="#">
+                            <img src="./images/facebook.png" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="./images/telegram.png" alt="telegram">
+                        </a>
+                        <a href="#">
+                            <img src="./images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                    <button class="order-button">Schedule a Visit</button>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">© 2025, Maksim Chuprasov.</p>
+                    <a href="#" class="privacy">Privacy policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 class="modal-title">Schedule a Visit</h2>
+            <form class="modal-form">
+                <input type="text" class="input" name="name" placeholder="Name" required>
+                <input type="email" class="input" name="email" placeholder="E-mail" required>
+                <input type="date" class="input" name="date" required>
+                <button class="contact-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
